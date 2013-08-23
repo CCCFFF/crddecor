@@ -1,4 +1,6 @@
 Crddecor::Application.routes.draw do
+  resources :rooms
+
   resources :homes
 
   resources :users
