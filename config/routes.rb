@@ -4,6 +4,7 @@ Crddecor::Application.routes.draw do
   post "/session" => "sessions#create", as: "session"
   delete "/session" => "sessions#destroy"
 
+  root "fronts#index", as: "front"
 
   resources :comments
 
